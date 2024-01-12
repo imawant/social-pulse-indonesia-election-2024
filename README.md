@@ -9,6 +9,11 @@ Menjelang pemilihan presiden Indonesia 2024, proyek ini memanfaatkan data Twitte
 - Tujuannya adalah untuk kuantifikasi dan melacak pergeseran opini publik Indonesia di media sosial selama siklus pemilu.
 
 Metode yang Digunakan
-- Pengumpulan Tweet : Twitter API
+- Pengumpulan Tweet : Tweet Harvest, Periode : 2023-01-11 sampai 2023-11-23
 - Analisis Sentimen Yang dilakukan :
-  - adsalda
+  - Preprocessing Data (Normalisasi REGEX, Slang Words Replacement)
+  - Exploratory Data Analysis (visualisasi jumlah sentimen antar paslon, wordcloud sentimen tiap paslon)
+  - Modeling (indobert-base, indobertweet, indobert-large-p2)
+
+Flowchart:
+![flow  uas nlp drawio (2)](https://github.com/imawant/social-pulse-indonesia-election-2024/assets/92636988/86602b94-5cf6-4217-8c68-449786de6c1c)
