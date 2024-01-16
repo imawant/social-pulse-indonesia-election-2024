@@ -16,4 +16,5 @@ Metode yang Digunakan
   - Modeling (indobert-base, indobertweet, indobert-large-p2)
 
 Flowchart:
+
 ![flow  uas nlp drawio (2)](https://github.com/imawant/social-pulse-indonesia-election-2024/assets/92636988/86602b94-5cf6-4217-8c68-449786de6c1c)
